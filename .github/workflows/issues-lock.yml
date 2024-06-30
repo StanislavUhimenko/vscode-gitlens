@@ -1,12 +1,4 @@
-name: 'Lock closed issues'
 
-on:
-    schedule:
-        - cron: '30 5 * * *'
-    workflow_dispatch:
-
-jobs:
-    stale:
         runs-on: ubuntu-latest
         permissions:
             issues: write
