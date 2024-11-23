@@ -1,9 +1,8 @@
----
-name: Feature request
-about: Suggest an idea for GitLens
-title: ''
-labels: feature, triage
-assignees: ''
----
-
-<!-- Describe the feature you'd like. -->
+body:
+- type: markdown
+  attributes:
+    value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
